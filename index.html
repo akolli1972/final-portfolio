@@ -8,6 +8,10 @@
     <link rel="stylesheet" type="text/css" href="footer/css/font-awesome.min.css">
     <!-- <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -35,16 +39,7 @@ x.className = "topnav";
   <a href="contact.html">CONTACT</a>
   
 
-  <!-- <div class="dropdown">
-    <button class="dropbtn">CERTIFICATIONS -->
-    <!-- <i class="fa fa-caret-down"></i> -->
-    <!-- </button>
-  <div class="dropdown-content">
-    <a href="#">Link 1 </a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-  </div> -->
+  
  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
   </div> 
  
@@ -119,32 +114,11 @@ x.className = "topnav";
          <img src="images/clapping.jpg" class="card-img-top" alt="...">
         <div class="card-body">
          <h5 class="card-title">Endorsements</h5>
-        <p>Mrs. Kolli is very knowledgeable and plays an integral role in our school community. She works closely with our special education team and is often asked to serve as a mentor and leader in this<span id="dots">...</span><span id="more">department. She is very meticulous, organized and detailed in the work that she completes.Mrs. Kolli goes above and beyond for her students and provides personal, emotional, social andacademic support. She sets goals for her students that enable them to grow as individuals andprepare to be productive and successful citizens. She works many long hours and is always willing to complete any task assigned to her. In fact, she often looks ahead to the big picture and completes tasks before they are assigned.I believe that Mrs. Kolli’s professionalism, honesty and effectiveness make her someone worthy of your consideration for any position in which she pursues-Dr.Freda Doster, Principal</span></p>
+        <!-- <p>Mrs. Kolli is very knowledgeable and plays an integral role in our school community. She works closely with our special education team and is often asked to serve as a mentor and leader in this<span id="dots">...</span><span id="more">department. She is very meticulous, organized and detailed in the work that she completes.Mrs. Kolli goes above and beyond for her students and provides personal, emotional, social and academic support. She sets goals for her students that enable them to grow as individuals and prepare to be productive and successful citizens. She works many long hours and is always willing to complete any task assigned to her. In fact, she often looks ahead to the big picture and completes tasks before they are assigned.I believe that Mrs. Kolli’s professionalism, honesty and effectiveness make her someone worthy of your consideration for any position in which she pursues-Dr.Freda Doster, Principal</span></p>
         <button onclick="myFunction()" id="myBtn">Read more</button>
       
 <script>
 function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
-
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
-    moreText.style.display = "inline";
-  }
-}
-</script>
-
- <p>Aruna Kolli is one of the most professional teachers that I have had the pleasure to work with. She is respected by everyone that has worked with her - administrators, teacher peers, paraprofessionals, <span id="dots1">...</span><span id="more1">parents and students.  She is able to move mountains for students that have some of the most significant needs and challenges.  She has been a role model for other teachers in our district.  When I have a teacher that needs to see a model classroom for students with cognitive disabilities, I recommend visiting Ms. Kolli's classroom.  We are losing one of the most valuable assets to our school district!-James Pitzer,Director of Special Education </span></p>
-<button onclick="myFunction1()" id="myBtn1">Read more</button>
-
-<script>
-function myFunction1() {
   var dots = document.getElementById("dots1");
   var moreText = document.getElementById("more1");
   var btnText = document.getElementById("myBtn1");
@@ -159,7 +133,33 @@ function myFunction1() {
     moreText.style.display = "inline";
   }
 }
+</script> -->
+
+  <p>Aruna Kolli is one of the most professional teachers that I have had the pleasure to work with. She is respected by everyone that has worked with her - administrators, teacher peers, paraprofessionals, <span id="dots1">...</span><span id="more1">parents and students.  She is able to move mountains for students that have some of the most significant needs and challenges.  She has been a role model for other teachers in our district.  When I have a teacher that needs to see a model classroom for students with cognitive disabilities, I recommend visiting Ms. Kolli's classroom.  We are losing one of the most valuable assets to our school district!-James Pitzer,Director of Special Education </span></p>
+<button onclick="myFunction1()" id="myBtn1">Read more</button>
+
+ 
+
+
+<script>
+function myFunction1() {
+  var dots = document.getElementById("dots1");
+  var moreText = document.getElementById("more1");
+  var btnText = document.getElementById("myBtn1");
+
+  if (dots1.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
 </script> 
+
+  
         </div>
      </div>
 </div>     
@@ -304,6 +304,24 @@ x.className = "topnav";
 }
 }
 </script>
+
+<!-- <script>
+  function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }
+  </script> -->
 
   </body>
 </html>

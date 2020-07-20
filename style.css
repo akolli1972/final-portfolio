@@ -556,7 +556,7 @@ p{
 }
 
 .double-box .img-area{
-  background-image: url(images/selfpic8.jpg)
+  background-image: url(images/profpic.jpg)
 }
 
 
@@ -579,3 +579,35 @@ p{
     background:rgb(43, 46, 46);
     color:#fff;
 }
+/* .post{
+  color:blue;
+  font-size:18px;
+  text-align:
+} */
+
+/* button{
+  margin-top:15px;
+  display:block;
+  background-color: lightslategray;
+  color:white;
+  border:none;
+  outline:none;
+  padding: 8px 20px;
+  text-transform: capitalize;
+  cursor:pointer;
+  font-size:20px;
+}
+.more{
+  display:none;
+}
+.post{
+  color:green;
+  font-size:18px;
+  text-align: justify;
+  line-height: 25px;
+  font-family: 'work sans', sans-serif;
+}
+.post:not(:last-child){
+  margin-bottom: 30px;;
+} */
+
